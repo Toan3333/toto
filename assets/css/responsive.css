@@ -1,0 +1,339 @@
+@media screen and (max-width: 1279.98px) {
+  .header-menu {
+    gap: 30px;
+  }
+  .header-logo {
+    margin-right: 0;
+  }
+  .banner-content {
+    padding: 20px;
+    top: 54%;
+  }
+  .banner-title {
+    font-size: 35px;
+    margin-bottom: 10px;
+    line-height: 40px;
+  }
+  .banner-desc-col {
+    gap: 8px;
+  }
+  .banner-auth {
+    margin-top: 10px;
+  }
+  .button {
+    font-size: 16px;
+  }
+  .intro {
+    margin-top: 50px;
+  }
+  .construction-content {
+    padding: 10px;
+  }
+  .construction-content h3 {
+    font-size: 16px;
+  }
+  .construction-auth-main {
+    gap: 0;
+  }
+  .rule-desc {
+    margin-bottom: 10px;
+  }
+  .jury-list {
+    gap: 30px;
+  }
+  .journey-milestone {
+    height: 1050px;
+  }
+  .structure-main {
+    flex-direction: column;
+  }
+  .structure-left {
+    width: 100%;
+  }
+  .structure-right {
+    width: 100%;
+  }
+  .structure-list {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1023.98px) {
+  .header {
+    padding: 20px;
+  }
+  .header-main {
+    padding: 0 20px;
+  }
+  .header-menu {
+    display: none;
+  }
+  .header-bar i {
+    display: block;
+  }
+  .banner-content {
+    display: none;
+  }
+  .banner-title {
+    font-size: 24px;
+  }
+  .intro-main {
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+  .intro-title {
+    font-size: 38px;
+  }
+  .intro-title.construction-title {
+    font-size: 35px;
+  }
+  .intro-col {
+    gap: 15px;
+  }
+  .intro-prize-desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Số dòng tối đa */
+    overflow: hidden;
+  }
+  .button {
+    font-size: 15px;
+  }
+  .construction-list {
+    display: grid;
+    justify-content: flex-start;
+    grid-auto-columns: 300px;
+    grid-auto-flow: column;
+    grid-gap: 30px;
+    overflow: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-overflow-scrolling: touch;
+    scroll-padding: 1rem;
+    grid-template-columns: unset;
+  }
+  .construction-list ::-webkit-scrollbar {
+    display: none;
+    width: 0;
+  }
+  .construction-list > * {
+    scroll-snap-align: start;
+  }
+  .jury {
+    padding: 40px 0;
+  }
+  .jury-list {
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .journey-milestone {
+    height: 1300px;
+  }
+  .structure-right__title {
+    font-size: 18px;
+  }
+  .structure-right__list {
+    display: grid;
+    justify-content: flex-start;
+    grid-auto-columns: 300px;
+    grid-auto-flow: column;
+    grid-gap: 1.5rem;
+    overflow: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-overflow-scrolling: touch;
+    scroll-padding: 1rem;
+    grid-template-columns: unset;
+  }
+  .structure-right__list ::-webkit-scrollbar {
+    display: none;
+    width: 0;
+  }
+  .structure-right__list > * {
+    scroll-snap-align: start;
+  }
+  .event {
+    padding: 40px 0;
+  }
+  .event-main {
+    flex-direction: column;
+  }
+  .event-content__title {
+    font-size: 18px;
+  }
+  .news {
+    padding: 40px 0;
+  }
+  .news-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .news-desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Số dòng tối đa */
+    overflow: hidden;
+  }
+  .news-title {
+    font-size: 20px;
+  }
+  .footer-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-auth {
+    position: unset;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .header-logo {
+    width: 100px;
+  }
+  .banner-dot {
+    bottom: 35px;
+  }
+  .banner-dot span {
+    width: 15px;
+    height: 15px;
+  }
+  .intro {
+    margin-top: 20px;
+  }
+  .intro-title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+  }
+  .intro-desc {
+    font-size: 16px;
+  }
+  .intro-main {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  .intro-main.intro-main2 {
+    flex-direction: column-reverse;
+  }
+  .intro-name {
+    font-size: 18px;
+  }
+  .intro-title.construction-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .intro-list {
+    gap: 15px;
+  }
+  .intro-prize-desc {
+    font-size: 16px;
+  }
+  .intro-prize-year {
+    font-size: 18px;
+  }
+  .button {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .construction {
+    padding: 40px 0;
+  }
+  .rule {
+    padding: 40px 0;
+  }
+  .rule-main {
+    flex-direction: column;
+  }
+  .rule-desc {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .rule-button-main {
+    display: unset;
+  }
+  .mt {
+    margin-top: 20px;
+    display: block;
+  }
+  .jury-list {
+    gap: 16px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .journey {
+    padding: 40px 0;
+  }
+  .journey-main {
+    flex-direction: column;
+  }
+  .journey-milestone {
+    display: none;
+  }
+  .event-video__content {
+    padding: 0 30px;
+    top: 15%;
+  }
+  .event-video__content p {
+    font-size: 15px;
+  }
+  .news-list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  .news-content {
+    margin-top: 10px;
+  }
+  .news-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .news-desc {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .faq {
+    padding: 40px 0;
+  }
+  .faq-main {
+    flex-direction: column;
+  }
+  .rule-field {
+    font-size: 14px;
+  }
+  .faq-right-text.faq-right-text2 {
+    font-size: 14px;
+  }
+  .footer {
+    overflow: hidden;
+  }
+  .footer-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-desc {
+    font-size: 16px;
+  }
+  .footer-item-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    word-break: break-word;
+    gap: 10px;
+  }
+  .footer-item {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+  }
+  .footer-auth {
+    position: unset;
+  }
+  .footer-logo {
+    display: none;
+  }
+  .footer-text {
+    font-size: 16px;
+  }
+}

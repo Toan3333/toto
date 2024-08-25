@@ -24,7 +24,7 @@
     font-size: 16px;
   }
   .intro {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .construction-content {
     padding: 10px;
@@ -61,6 +61,32 @@
   .header {
     padding: 20px;
   }
+  .header-menu-mobile {
+    display: inline-flex;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    width: 300px;
+    z-index: 99;
+    border-left: 1px solid #eee;
+    flex-direction: column;
+    gap: 20px 0;
+    padding-top: 20px;
+    align-items: stretch;
+    transform: translateX(100%);
+    will-change: transform;
+    transition: all 0.2s linear;
+  }
+  .header-menu-mobile > li > a {
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .header-menu-mobile.is-show {
+    transform: translateX(0);
+  }
   .header-main {
     padding: 0 20px;
   }
@@ -77,11 +103,22 @@
     font-size: 24px;
   }
   .intro-main {
-    gap: 40px;
+    gap: 30px;
     margin-bottom: 30px;
   }
   .intro-title {
-    font-size: 38px;
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+  .intro-title br {
+    display: none;
+  }
+  .rule-desc {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .rule-link {
+    font-size: 18px;
   }
   .intro-title.construction-title {
     font-size: 35px;
@@ -97,6 +134,8 @@
   }
   .button {
     font-size: 15px;
+    padding: 4px 8px;
+    font-size: 14px;
   }
   .construction-list {
     display: grid;
@@ -133,6 +172,15 @@
   }
   .structure-right__title {
     font-size: 18px;
+  }
+  .intro-link {
+    font-size: 18px;
+  }
+  .intro-prize-year {
+    font-size: 16px;
+  }
+  .intro-prize-desc {
+    font-size: 16px;
   }
   .structure-right__list {
     display: grid;
@@ -187,10 +235,39 @@
   .footer-auth {
     position: unset;
   }
+  .intro-desc {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 767.98px) {
   .header-logo {
     width: 100px;
+  }
+  .header-menu-mobile {
+    display: inline-flex;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    width: 300px;
+    z-index: 99;
+    border-left: 1px solid #eee;
+    flex-direction: column;
+    gap: 20px 0;
+    padding-top: 20px;
+    align-items: stretch;
+    transform: translateX(100%);
+    will-change: transform;
+    transition: all 0.2s linear;
+  }
+  .header-menu-mobile > li > a {
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .header-menu-mobile.is-show {
+    transform: translateX(0);
   }
   .banner-dot {
     bottom: 35px;
@@ -203,7 +280,7 @@
     margin-top: 20px;
   }
   .intro-title {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     margin-bottom: 10px;
   }
@@ -259,6 +336,9 @@
     margin-top: 20px;
     display: block;
   }
+  .structure-text {
+    font-size: 18px;
+  }
   .jury-list {
     gap: 16px;
     grid-template-columns: repeat(1, 1fr);
@@ -276,12 +356,18 @@
     padding: 0 30px;
     top: 15%;
   }
+  .event-desc {
+    font-size: 18px;
+  }
   .event-video__content p {
     font-size: 15px;
   }
   .news-list {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
+  }
+  .structure-link {
+    font-size: 16px;
   }
   .news-content {
     margin-top: 10px;

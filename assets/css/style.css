@@ -65,6 +65,9 @@ body {
   align-items: center;
   gap: 64px;
 }
+.header-menu-mobile {
+  display: none;
+}
 .header-bar i {
   color: white;
   font-size: 30px;
@@ -79,9 +82,7 @@ body {
   font-weight: 300;
   line-height: 24px;
 }
-.header-logo {
-  margin-right: 80px;
-}
+
 .header-auth {
   display: flex;
   align-items: center;
@@ -933,10 +934,10 @@ body {
   gap: 25px;
 }
 .footer-item-left {
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 26px;
+  line-height: 24px;
   flex-shrink: 0; /* Đảm bảo phần này không bị thu nhỏ lại */
   width: 138px;
 }
